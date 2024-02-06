@@ -25,7 +25,7 @@ function generateTweet(text){
     </div>`;
     feed.appendChild(tweetCont);
     let like = tweetCont.querySelector(".tweet-bottom .like");
-    let delete = tweetCont.querySelector('.tweep-top .delete');
+    // let delete = tweetCont.querySelector('.tweep-top .delete');
     like.addEventListener('click',function(){
         let likeIcon = like.querySelector('i.fa-heart');
         if (likeIcon.classList.contains('fa-regular')) {
@@ -39,5 +39,5 @@ function generateTweet(text){
             // taskArea.setAttribute('contenteditable', 'true');
         }
     });
-    delete
+    // delete
 }
