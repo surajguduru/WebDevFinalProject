@@ -19,7 +19,7 @@ body{
 }
 .tweet-component{
     background-color:#ECF8FF;
-    /* height: 100vh; */
+    height: 100vh;
     width: 50vw;
     display : flex;
     flex-direction: column;
